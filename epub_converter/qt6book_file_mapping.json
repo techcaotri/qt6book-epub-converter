@@ -1,0 +1,174 @@
+{
+  "ch00-preface": [
+    "preface.md",
+    "acknowledgements.md",
+    "authors.html",
+    "authors.md",
+    "authors.pdf"
+  ],
+  "ch01-meetqt": ["meet-qt.md", "blocks.md", "intro.md"],
+  "ch02-start": [
+    "quick-start.md",
+    "install.md",
+    "hello-world.md",
+    "app-types.md",
+    "summary.md"
+  ],
+  "ch03-qtcreator": [
+    "qt-creator.md",
+    "user-interface.md",
+    "kit-registry.md",
+    "projects.md",
+    "editor.md",
+    "locator.md",
+    "debugging.md",
+    "shortcuts.md"
+  ],
+  "ch04-qmlstart": [
+    "quick-start.md",
+    "qml-syntax.md",
+    "core-elements.md",
+    "components.md",
+    "transformations.md",
+    "positioning.md",
+    "layout.md",
+    "input.md",
+    "advanced.md"
+  ],
+  "ch05-fluid": [
+    "fluid-elements.md",
+    "animations.md",
+    "states-transitions.md",
+    "advanced.md"
+  ],
+  "ch06-controls": [
+    "controls2.md",
+    "introduction.md",
+    "image-viewer.md",
+    "common-patterns.md",
+    "imagine-style.md",
+    "summary.md"
+  ],
+  "ch07-modelview": [
+    "model-view.md",
+    "concept.md",
+    "basic-models.md",
+    "dynamic-views.md",
+    "delegate.md",
+    "advanced.md",
+    "summary.md"
+  ],
+  "ch08-canvas": [
+    "canvas-element.md",
+    "convenience-api.md",
+    "gradients.md",
+    "shadows.md",
+    "images.md",
+    "transformation.md",
+    "composition-modes.md",
+    "pixel-buffer.md",
+    "canvas-paint.md",
+    "port-from-html.md"
+  ],
+  "ch09-shapes": [
+    "shapes.md",
+    "basics.md",
+    "paths.md",
+    "gradients.md",
+    "animations.md",
+    "summary.md"
+  ],
+  "ch10-effects": [
+    "effects.md",
+    "particles.md",
+    "simple-simulation.md",
+    "particle-parameters.md",
+    "directed-particles.md",
+    "affecting-particles.md",
+    "particle-groups.md",
+    "particle-painters.md",
+    "opengl-shaders.md",
+    "shader-elements.md",
+    "fragment-shaders.md",
+    "wave-effect.md",
+    "vertex-shader.md",
+    "curtain-effect.md",
+    "summary.md"
+  ],
+  "ch11-multimedia": [
+    "multimedia.md",
+    "playing-media.md",
+    "sound-effects.md",
+    "video-streams.md",
+    "capturing-images.md",
+    "summary.md"
+  ],
+  "ch12-qtquick3d": [
+    "intro.md",
+    "basics.md",
+    "assets.md",
+    "materials-and-light.md",
+    "animations.md",
+    "mixing-2d-and-3d.md",
+    "summary.md"
+  ],
+  "ch13-networking": [
+    "networking.md",
+    "serve-qml.md",
+    "templates.md",
+    "http-requests.md",
+    "local-files.md",
+    "rest-api.md",
+    "authentication.md",
+    "web-sockets.md",
+    "summary.md"
+  ],
+  "ch14-storage": ["storage.md", "settings.md", "local-storage.md"],
+  "ch15-dynamicqml": [
+    "dynamic-qml.md",
+    "loading-components.md",
+    "dynamic-objects.md",
+    "tracking-objects.md",
+    "summary.md"
+  ],
+  "ch16-javascript": [
+    "javascript.md",
+    "html-qml.md",
+    "js-language.md",
+    "js-objects.md",
+    "js-console.md"
+  ],
+  "ch17-qtcpp": [
+    "qtcpp.md",
+    "boilerplate.md",
+    "qobject.md",
+    "build-system.md",
+    "common-classes.md",
+    "cpp-models.md"
+  ],
+  "ch18-extensions": [
+    "extending-qml.md",
+    "qml-runtime.md",
+    "plugin-content.md",
+    "create-plugin.md",
+    "fileio-demo.md",
+    "using-fileio.md",
+    "summary.md"
+  ],
+  "ch19-python": [
+    "qt-python.md",
+    "introduction.md",
+    "installing.md",
+    "build-app.md",
+    "limitations.md",
+    "summary.md"
+  ],
+  "ch20-qtformcu": [
+    "qtformcu.md",
+    "setup.md",
+    "helloworld.md",
+    "cpp.md",
+    "models.md",
+    "summary.md"
+  ]
+}
