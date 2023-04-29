@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  ubuntu:
+    image: ubuntu:18.04
+    build: ./docker/ubuntu
+    container_name: ubuntu_18_04
+    volumes:
+      - ./work_shared:/work_shared
+    networks:
+      - ubuntu_network
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    entrypoint: /bin/bash
+
+networks:
+  ubuntu_network:
+    name: ubuntu_network
+    driver: bridge
+  
+volumes:
+  ssh-keys:
