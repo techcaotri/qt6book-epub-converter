@@ -31,6 +31,7 @@ This converter makes use of the following frameworks/libraries and technologies.
 ## Getting Started
 ### Prerequisites
 The converter uses Pandoc and the following plugins to publish to EPUB format:
+<a name="pandoc-plugins"></a>
   + [pandoc-codeblock-include](https://pypi.org/project/pandoc-codeblock-include/) 
   + [mermaid-filter](): your might need to install the following packages: 
   	+ https://www.npmjs.com/package/mermaid-filter
@@ -38,9 +39,14 @@ The converter uses Pandoc and the following plugins to publish to EPUB format:
   + [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref) 
 
 ### Usage
-Just run the script:
+1. Prepare the Docker container:
 ```bash
-$ ./download_and_convert_qt6book.sh
+$ ./prepare_docker.sh
+```
+
+2. Publish epub file inside Docker container:
+```bash
+$ ./publish_epub_in_docker.sh
 ```
 
 ### How the script operate:
@@ -64,7 +70,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Acknowledgements:
 * [The Amazing Qt 6 Book](https://github.com/qmlbook/qt6book)
-* [The productive template that I used for publishing EPUB](https://github.com/hieplpvip/pandoc-markdown-book)
+* [The productive template that I used for publishing this EPUB](https://github.com/hieplpvip/pandoc-markdown-book)
+* [Pandoc and its awesome plugins](#pandoc-plugins)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
