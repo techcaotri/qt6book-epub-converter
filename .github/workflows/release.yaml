@@ -21,8 +21,9 @@ jobs:
       - name: Publish EPUB
         run: ./publish_epub_in_docker.sh
       - name: Get Name of Artifact
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         run: |
-          ACTIONS_ALLOW_UNSECURE_COMMANDS=true
           ARTIFACT_PATHNAME=$(ls ./work_shared/output/*.epub | head -n 1)
           ARTIFACT_NAME=$(basename $ARTIFACT_PATHNAME)
           echo ::set-env name=ARTIFACT_NAME::${ARTIFACT_NAME}
