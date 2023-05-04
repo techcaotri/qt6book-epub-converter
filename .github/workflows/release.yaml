@@ -22,7 +22,7 @@ jobs:
         run: ./publish_epub_in_docker.sh
       - name: Get Name of Artifact
         run: |
-          ARTIFACT_PATHNAME=$(ls output/*.epub | head -n 1)
+          ARTIFACT_PATHNAME=$(ls ./work_shared/output/*.epub | head -n 1)
           ARTIFACT_NAME=$(basename $ARTIFACT_PATHNAME)
           echo ::set-env name=ARTIFACT_NAME::${ARTIFACT_NAME}
           echo ::set-env name=ARTIFACT_PATHNAME::${ARTIFACT_PATHNAME}
