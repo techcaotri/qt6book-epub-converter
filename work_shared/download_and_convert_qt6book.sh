@@ -54,4 +54,4 @@ echo -e "${CYAN}Converting the qt6book to epub...${NOCOLOR}"
 # Prepare the final epub files
 echo -e "${CYAN}Conversion completed. Please check the epub file in the ${LIGHTRED}'output' ${CYAN}directory.${NOCOLOR}"
 popd
-mkdir -p output && cp epub_converter/build/epub/qt6book.epub "./output/qt6book_$QT6BOOK_GIT_HASH.epub"
+mkdir -p output && cp epub_converter/build/epub/qt6book.epub "./output/qt6book_$QT6BOOK_GIT_HASH.epub" && chmod -R a+rw "./output/"

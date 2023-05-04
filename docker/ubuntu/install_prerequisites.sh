@@ -36,8 +36,8 @@ dpkg -i pandoc-3.1.2-1-amd64.deb
 pip3 install pandoc-codeblock-include
 
 # Install mermaid-filter
-npm i -g mermaid-filter
-npm i -g @mermaid-js/mermaid-cli
+npm i -g mermaid-filter --loglevel verbose
+npm i -g @mermaid-js/mermaid-cli --loglevel verbose
 
 wget https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.15.2a/pandoc-crossref-Linux.tar.xz
 tar xvf ./pandoc-crossref-Linux.tar.xz -C /usr/bin/
