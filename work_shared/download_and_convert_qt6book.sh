@@ -25,6 +25,7 @@ echo -e ${CYAN}Checking qt6book...${NOCOLOR}
 if [ ! -d "qt6book" ]; then
     echo Downloading qt6book project from Github...
     git clone https://github.com/qmlbook/qt6book
+    chmod -R a+w qt6book
 fi
 
 QT6BOOK_GIT_HASH=$(git -C qt6book log --pretty=format:'%h' -n 1)
