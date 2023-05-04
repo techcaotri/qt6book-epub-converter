@@ -42,7 +42,8 @@ cp -r ../qt6book/docs qt6book/
 
 # Prepare the converter tool
 echo -e "${CYAN}Unzip converter ${LIGHTRED}'qt6book_converter'${NOCOLOR}"
-unzip -of qt6book_converter.zip
+unzip --help
+unzip -o qt6book_converter.zip
 ls -al .
 
 # Convert the qt6book to pandoc's compatible Markdown files

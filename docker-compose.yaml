@@ -2,9 +2,8 @@ version: '3.8'
 
 services:
   ubuntu:
-    image: ubuntu:18.04
-    build: ./docker/ubuntu
-    container_name: ubuntu_18_04
+    image: techcaotri/pandoc-python:latest
+    container_name: pandoc-python
     volumes:
       - ./work_shared:/work_shared
       - /etc/localtime:/etc/localtime:ro
