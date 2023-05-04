@@ -2,4 +2,5 @@ work_shared/qt6book
 work_shared/epub_converter/qt6book
 work_shared/epub_converter/build
 work_shared/epub_converter/qt6book_converter
+work_shared/epub_converter/mermaid-filter.err
 work_shared/output
