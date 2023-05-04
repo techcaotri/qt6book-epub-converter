@@ -39,9 +39,14 @@ The converter uses Pandoc and the following plugins to publish to EPUB format:
   + [pandoc-crossref](https://github.com/lierdakil/pandoc-crossref) 
 
 ### Usage
-Just run the script:
+1. Prepare the Docker container:
 ```bash
-$ ./download_and_convert_qt6book.sh
+$ ./prepare_docker.sh
+```
+
+2. Publish epub file inside Docker container:
+```bash
+$ ./publish_epub_in_docker.sh
 ```
 
 ### How the script operate:
