@@ -1,9 +1,6 @@
 FROM ubuntu:18.04
 
 USER root
-# Set Timezone
-ENV TZ=Asia/Ho_Chi_Minh
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 COPY choose_fastest_mirror.sh /tmp/choose_fastest_mirror.sh
 RUN chmod +x /tmp/choose_fastest_mirror.sh

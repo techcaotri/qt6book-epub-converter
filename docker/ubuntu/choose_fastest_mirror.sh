@@ -1,4 +1,4 @@
-asdf#!/bin/bash -x
+#!/bin/bash -x
 
 # Backup the original sources.list
 cp /etc/apt/sources.list /etc/apt/sources.list.backup

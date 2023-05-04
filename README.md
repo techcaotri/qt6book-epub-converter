@@ -31,6 +31,7 @@ This converter makes use of the following frameworks/libraries and technologies.
 ## Getting Started
 ### Prerequisites
 The converter uses Pandoc and the following plugins to publish to EPUB format:
+<a name="pandoc-plugins"></a>
   + [pandoc-codeblock-include](https://pypi.org/project/pandoc-codeblock-include/) 
   + [mermaid-filter](): your might need to install the following packages: 
   	+ https://www.npmjs.com/package/mermaid-filter
@@ -64,7 +65,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Acknowledgements:
 * [The Amazing Qt 6 Book](https://github.com/qmlbook/qt6book)
-* [The productive template that I used for publishing EPUB](https://github.com/hieplpvip/pandoc-markdown-book)
+* [The productive template that I used for publishing this EPUB](https://github.com/hieplpvip/pandoc-markdown-book)
+* [Pandoc and its awesome plugins](#pandoc-plugins)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
