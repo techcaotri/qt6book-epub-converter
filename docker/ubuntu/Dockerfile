@@ -23,7 +23,6 @@ RUN /tmp/install_prerequisites.sh
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
     PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser \
     PATH="/data/node_modules/.bin:${PATH}"
-COPY puppeteerConfigFile.json /root/.puppeteer.json
 
 # Set locale
 RUN locale-gen en_US.UTF-8
